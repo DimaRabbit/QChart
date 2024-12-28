@@ -1,0 +1,25 @@
+# Игнорировать папки сборки
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Игнорировать исполняемые файлы
+*.exe
+*.out
+*.app
+*.o
+*.a
+*.so
+*.dll
+
+# Игнорировать временные файлы IDE
+.idea/
+*.pro.user
+*.qmake.stash
+
+# Игнорировать временные файлы системы
+*~
+*.swp
+Thumbs.db
